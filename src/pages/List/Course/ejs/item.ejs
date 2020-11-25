@@ -1,0 +1,12 @@
+<% data.forEach(item => {%>
+   <div class="course-item">
+      <div class="img-wrapper">
+         <img src="<%=item.imgSrc%>" />
+         <p class="order-num"><%=item.orderNum%>人最近报名</p>
+      </div>
+      <div class="course-info">
+         <p class="name row-ellipsis"><%=item.name%></p>
+         <p class="price"><%=item.price%></p>
+      </div>
+   </div>
+<%})%>

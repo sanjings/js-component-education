@@ -1,0 +1,19 @@
+<% if (data.length) {%>
+   <div class="search-records">
+      <div class="records-wrapper">
+         <div class="title">
+            <i class="iconfont icon-record"></i>
+            <span>最近搜索</span>
+         </div>
+         <ul class="records-list">
+            <%data.forEach(item => {%>
+               <li class="record-item">
+                  <p><%=item%></p>
+                  <i class="iconfont icon-clearcircel delete"></i>
+               </li>
+            <%})%>
+         </ul> 
+         <p class="clear-records">清空搜索记录</p>
+      </div>
+   </div>
+<%}%>

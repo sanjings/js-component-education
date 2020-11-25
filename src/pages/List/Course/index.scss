@@ -1,0 +1,47 @@
+.course-scroll{
+   flex: 1;
+   overflow: hidden;
+   .course-list{
+      .course-item{
+         display: flex;
+         align-items: center;
+         padding: 0.1rem;
+         border-bottom: 1px solid $color-light-gray;
+         &:last-of-type{
+            border-bottom: none;
+         }
+         .img-wrapper{
+            position: relative;
+            margin-right: 0.1rem;
+            width: 1.4rem;
+            height: 0.8rem;
+            border-radius: 2px;
+            overflow: hidden;
+            .order-num{
+               position: absolute;
+               bottom: 0;
+               left: 0;
+               padding-left: 0.04rem;
+               width: 100%;
+               height: 0.16rem;
+               line-height: 0.16rem;
+               background-color: rgba(0, 0, 0, 0.6);
+               color: #fff;
+               font-size: 0.1rem;
+            }
+         }
+         .course-info{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 0.8rem;
+            font-size: $font-size-mini;
+            .price{
+               color: $color-red;
+               font-weight: 550;
+            }
+         }
+      }
+   }
+}

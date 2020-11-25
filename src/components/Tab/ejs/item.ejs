@@ -1,0 +1,8 @@
+<% data.forEach((item, index) => { %>
+   <li 
+      class="tab-item <%= (index === 0) ? 'active' : '' %>" 
+      data-type="<%=item.type%>"
+   >
+      <%=item.name%>
+   </li> 
+<% }) %>

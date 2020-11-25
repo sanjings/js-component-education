@@ -1,0 +1,120 @@
+.search-box{
+   display: none;
+   position: fixed;
+   left: 0;
+   top: 0;
+   z-index: 999;
+   width: 100vw;
+   height: 100vh;
+   background-color: rgba(0,0,0,.5);
+   // 搜索栏
+   .search-bar{
+      display: flex;
+      padding: 0.1rem 0.05rem;
+      height: 0.5rem;
+      background-color: #fff;
+      border-bottom: 2px solid $color-light-gray;
+      .search-input{
+         display: flex;
+         align-items: center;
+         padding-left: 0.1rem;
+         width: 3.2rem;
+         height: 0.3rem;
+         border: 2px solid $color-light-gray;
+         border-radius: 4px;
+         .input-search{
+            width: 2.5rem;
+            height: 0.28rem;
+            border: none;
+         }
+         .search-action{
+            min-width: 0.45rem;
+            text-align: right;
+            .icon-clear{
+               display: none;
+            }
+            i{
+               font-size: $font-size-large;
+               color: $color-gray;
+            }
+         }
+      }
+      .cancel{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         width: 0.55rem;
+         height: 0.3rem;
+         font-size: $font-size-mini;
+         color: $color-red;
+      }
+   }
+   .sub-search{
+      animation-name: heightScaling;
+      animation-duration: 0.2s;
+      animation-timing-function: linear;
+      overflow: hidden;
+      // 热门搜索
+      .hot-search{
+         padding: 0.1rem;
+         background-color: #fff;
+         border-bottom: 1px solid $color-light-gray;
+         .title{
+            font-size: $font-size-small;
+            color: $color-deep-gray;
+         }
+         .hot-list{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            .hot-item{
+               margin: 0.08rem 0.08rem 0 0;
+               padding: 0.05rem 0.12rem;
+               border: 2px solid $color-light-gray;
+               border-radius: 0.16rem;
+               font-size: $font-size-mini;
+            }
+         }
+      }
+      // 最近搜索
+      .search-records{
+         .records-wrapper{
+            padding: 0.1rem 0.1rem 0;
+            background-color: #fff;
+            border-bottom: 1px solid $color-light-gray;
+            .title{
+               font-size: $font-size-small;
+               color: $color-deep-gray;
+            }
+            .records-list{
+               .record-item{
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  padding: 0.1rem 0;
+                  color: $color-deep-gray;
+                  font-size: $font-size-mini;
+                  border-bottom: 1px solid $color-light-gray;
+                  i{
+                     color: #ccc;
+                  }
+               }
+            }
+            .clear-records{
+               padding: 0.1rem 0;
+               font-size: $font-size-mini;
+               color: $color-red;
+            }
+         }  
+      }
+   }
+}
+
+@keyframes heightScaling{
+   from {
+      height: 0;
+   }
+   to {
+      height: 3rem;
+   }
+}

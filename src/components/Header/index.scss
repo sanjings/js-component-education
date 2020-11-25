@@ -1,0 +1,38 @@
+.header-wrapper{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   height: 0.5rem;
+   background-color: $color-red;
+   color: #fff;
+   .back-btn,.search-btn{
+      position: absolute;
+      top: 0;
+      width: 0.4rem;
+      height: 0.5rem;
+      line-height: 0.5rem;
+      text-align: center;
+      i{
+         font-size: $font-size-large;
+      }
+   }
+   .back{
+      left: 0;
+   }
+   .logo{
+      display: flex;
+      align-items: center;
+      i{
+         transform: translate3d(0 ,1px, 0);
+         font-size: $font-size-small;
+      }
+      .title{
+         font-weight: 550;
+         font-size: $font-size-small;
+      }
+   }
+   .search-btn{
+      right: 0;
+   }
+}

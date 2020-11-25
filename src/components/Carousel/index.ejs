@@ -1,0 +1,10 @@
+<div class="swiper-container">
+   <ul class="swiper-wrapper">
+      <%data.forEach(item => {%>
+         <li class="swiper-slide">
+            <img src="<%=item.url%>" />
+         </li>
+      <%})%>
+   </ul>
+   <div class="swiper-pagination"></div>
+</div>

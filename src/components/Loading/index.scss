@@ -1,0 +1,21 @@
+.loading-wrapper{
+   position: fixed;
+   left: 50%;
+   top: 50%;
+   transform: translate3d(-50%, -50%, 0);
+   width: 2rem;
+   text-align: center;
+   .loading-img{
+      display: inline-block;
+      margin-right: 6px;
+      width: 0.2rem;
+      height: 0.2rem;
+      background-image: url('assets/images/loading.gif');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      vertical-align: middle;
+   }
+   .loading-text{
+      font-size: $font-size-mini;
+   }
+}

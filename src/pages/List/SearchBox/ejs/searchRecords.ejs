@@ -1,0 +1,9 @@
+<% if (data.length) {%>
+   <div class="search-records">
+      <ul class="records-list">
+         <%data.forEach(item => {%>
+            <li class="record-item"><%=item%></li>
+         <%})%>
+      </ul> 
+   </div>
+<%}%>
