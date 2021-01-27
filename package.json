@@ -1,7 +1,7 @@
 {
-  "name": "js-h5",
-  "version": "0.0.1",
-  "description": "原生JS模块化，组件化开发",
+  "name": "js-component-education",
+  "version": "1.0.0",
+  "description": "原生JS组件化开发",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --config build/webpack.dev.config.js",
