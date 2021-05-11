@@ -8,8 +8,7 @@ const imgList = [
    'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1373560791,4228178890&fm=26&gp=0.jpg',
    'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1434252412,15152386&fm=26&gp=0.jpg',
    'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=4000386096,2288866861&fm=26&gp=0.jpg',
-   'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3684712122,727326575&fm=26&gp=0.jpg',
-   'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1597831734840&di=a22e05987cdc8a2333b30647a710b2b0&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20190803%2F5503965310894d6eba3fbb7e5e39cdad.jpeg'
+   'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3684712122,727326575&fm=26&gp=0.jpg'
 ]
 
 Mock.setup({
