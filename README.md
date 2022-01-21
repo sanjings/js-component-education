@@ -15,10 +15,10 @@
 - 使用swiper来实现轮播图；  
 - 项目只为探索原生js组件化、模块化的开发方式，目前完成了列表，搜索，筛选，排序等功能，感兴趣的欢迎探讨和优化；  
 
-### 安装依赖（如果没有yarn推荐使用cnpm）
+### 安装依赖（推荐使用pnpm）
 ```
-npm install cnpm -g --registry=https://registry.npm.taobao.org
-yarn install or cnpm install
+npm install pnpm -g
+pnpm install
 ```
 
 ### 本地运行
